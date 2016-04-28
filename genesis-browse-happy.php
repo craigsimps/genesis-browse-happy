@@ -33,7 +33,7 @@ add_action( 'genesis_before', 'bh_browse_happy' );
 function bh_browse_happy() {
 	?>
 	<!--[if lte IE 8]>
-	<?php echo sprintf( '<p class="browser-upgrade">%s<strong>%s</strong>%s<a href="%s">%s</a>%s</p>', __( 'You are using an ', 'genesis-browse-happy' ), __( 'outdated', 'genesis-browse-happy' ), __( ' browser. Please ', 'genesis-browse-happy' ), esc_url( 'http://browsehappy.com' ),	__( 'upgrade your browser', 'genesis-browse-happy' ), __( ' to improve your experience.', 'genesis-browse-happy' ) ); ?>
+	<?php echo sprintf( '<p class="browser-upgrade">%s<strong>%s</strong>%s<a href="%s">%s</a>%s</p>', esc_html( 'You are using an ', 'genesis-browse-happy' ), esc_html( 'outdated', 'genesis-browse-happy' ), esc_html( ' browser. Please ', 'genesis-browse-happy' ), esc_url( 'http://browsehappy.com' ),	esc_html( 'upgrade your browser', 'genesis-browse-happy' ), esc_html( ' to improve your experience.', 'genesis-browse-happy' ) ); ?>
 	<![endif]-->
 	<?php
 }
