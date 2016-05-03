@@ -45,7 +45,7 @@ add_action( 'wp_enqueue_scripts', 'bh_enqueue_style' );
  * @since 1.0.0
  */
 function bh_enqueue_style() {
-	global $wp_styles;
+	
 	wp_enqueue_style( 'genesis-browse-happy', esc_url( plugin_dir_url( __FILE__ ) . 'css/genesis-browse-happy.css' ) );
-	$wp_styles->add_data( 'genesis-browse-happy', 'conditional', 'lte IE 8' );
+	wp_styles_add_data( 'genesis-browse-happy', 'conditional', 'lte IE 9' );
 }
