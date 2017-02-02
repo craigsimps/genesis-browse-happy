@@ -1,13 +1,13 @@
 {
   "name": "genesis-browse-happy",
-  "description": "Adds a notification bar and link to http://browsehappy.com if using IE8 or below.",
+  "description": "Places a notification at the top of the screen and links the user to Browse Happy if they are using IE9 or below.",
   "type": "wordpress-plugin",
   "homepage": "https://github.com/craigsimps/genesis-browse-happy/",
   "license": "GPL-2.0+",
   "authors": [
     {
       "name": "Craig Simpson",
-      "homepage": "https://github.com/craigsimps/",
+      "homepage": "https://craigsimpson.scot/",
       "role": "Developer"
     }
   ],
